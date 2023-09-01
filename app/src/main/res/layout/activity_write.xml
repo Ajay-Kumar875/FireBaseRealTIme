@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".writeActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <EditText
+        android:id="@+id/empName"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:hint="Enter name"
+        android:inputType="text"
+
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/empAge"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:hint="Enter age"
+        android:inputType="text"
+
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/empSalary"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:hint="Enter salary"
+
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnWriteData"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:textColor="#fff"
+        android:background="#000"
+        android:text="Write data to Firebase"/>
+
+
+
+</LinearLayout>
